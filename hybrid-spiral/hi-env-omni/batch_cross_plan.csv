@@ -1,0 +1,10 @@
+metric,batch_mean,batch_std,batch_min,batch_max,batch_range,best_plan,worst_plan,mean_within_plan_std,mean_within_plan_range,mean_within_plan_p5,mean_within_plan_p95
+RSRP_mean,-77.15,3.96,-82.94,-71.34,11.6,SPIRAL_6orbit_spc15m_alt5m_20260310T141402Z.csv,SPIRAL_6orbit_spc15m_alt95m_20260310T142457Z.csv,4.99,117.64,-83.63,-71.01
+RSSI_mean,-49.37,3.96,-55.16,-43.56,11.6,SPIRAL_6orbit_spc15m_alt5m_20260310T141402Z.csv,SPIRAL_6orbit_spc15m_alt95m_20260310T142457Z.csv,4.99,117.64,-55.85,-43.22
+RSRQ_mean,-10.79,0.0,-10.79,-10.79,0.0,SPIRAL_6orbit_spc15m_alt15m_20260310T141430Z.csv,SPIRAL_6orbit_spc15m_alt15m_20260310T141430Z.csv,0.0,0.0,-10.79,-10.79
+SINR_mean,19.64,3.96,13.85,25.44,11.59,SPIRAL_6orbit_spc15m_alt5m_20260310T141402Z.csv,SPIRAL_6orbit_spc15m_alt95m_20260310T142457Z.csv,4.99,117.64,13.16,25.78
+Gain_mean,1.46,1.98,-1.43,4.36,5.79,SPIRAL_6orbit_spc15m_alt5m_20260310T141402Z.csv,SPIRAL_6orbit_spc15m_alt95m_20260310T142457Z.csv,4.81,119.22,-5.69,3.68
+pct_RSRP_gt_minus90,97.54,2.5,92.7,100.0,7.3,SPIRAL_6orbit_spc15m_alt5m_20260310T141402Z.csv,SPIRAL_6orbit_spc15m_alt95m_20260310T142457Z.csv,,,,
+pct_RSRP_lt_minus110,0.22,0.22,0.0,0.6,0.6,SPIRAL_6orbit_spc15m_alt95m_20260310T142457Z.csv,SPIRAL_6orbit_spc15m_alt15m_20260310T141430Z.csv,,,,
+pct_SINR_gt_0dB,98.92,1.03,97.0,100.0,3.0,SPIRAL_6orbit_spc15m_alt5m_20260310T141402Z.csv,SPIRAL_6orbit_spc15m_alt95m_20260310T142457Z.csv,,,,
+pct_SINR_gt_10dB,96.1,4.25,87.3,100.0,12.7,SPIRAL_6orbit_spc15m_alt5m_20260310T141402Z.csv,SPIRAL_6orbit_spc15m_alt95m_20260310T142457Z.csv,,,,
