@@ -27,3 +27,16 @@ def load_flights(data_dir, signal_col):
     flights = data["__flight__"].to_numpy()
     print(f"Loaded {len(paths)} flight file(s), {len(xyz):,} samples total.")
     return xyz, signal, flights
+
+
+def validation_split(data_dir, signal_col):
+    xyz, signal, flights = load_flights(args.data_dir, args.signal_col)
+
+    # split off a validation set using xyz
+    perm = rng.permutation(len(xyz))
+    n_val = max(1, int(len(xyz) * args.val_frac))
+    val_idx, train_idx = perm[:n_val], perm[n_val:]
+    train_xyz, train_signal = xyz[train_idx], signal[train_idx]
+    val_xyz, val_signal = xyz[val_idx], signal[val_idx]
+
+return train_xyz, train_signal, val_xyz, val_signal
