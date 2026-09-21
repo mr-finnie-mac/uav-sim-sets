@@ -1,5 +1,8 @@
 import pandas as pd
+import numpy as np
+
 POSITION_COLS = ["x_m", "y_m", "alt_m"]
+val_frac = 0.15 # 0.2, 0.3
 
 
 def load_flights(data_dir, signal_col):
@@ -30,11 +33,11 @@ def load_flights(data_dir, signal_col):
 
 
 def validation_split(data_dir, signal_col):
-    xyz, signal, flights = load_flights(args.data_dir, args.signal_col)
-
+    xyz, signal, flights = load_flights(data_dir, signal_col)
+    rng = np.random.default_rng(0)
     # split off a validation set using xyz
     perm = rng.permutation(len(xyz))
-    n_val = max(1, int(len(xyz) * args.val_frac))
+    n_val = max(1, int(len(xyz) * val_frac))
     val_idx, train_idx = perm[:n_val], perm[n_val:]
     train_xyz, train_signal = xyz[train_idx], signal[train_idx]
     val_xyz, val_signal = xyz[val_idx], signal[val_idx]
