@@ -1,0 +1,61 @@
+{
+  "acquired_locations": 400,
+  "case_id": "path/train_00400/seed_00010",
+  "dataset_sha256": "e0591a394eddfca16a7458059fc4e6b977c9b865751d7d69f23d8a3052621e1e",
+  "features": [
+    "x_m",
+    "y_m",
+    "alt_m"
+  ],
+  "files": {
+    "evaluation/test_distances.csv": "1aea2560ffe4a0bf211426d7d8889b4e613fe75257413a314b8955d413f9da28",
+    "evaluation/test_targets.csv": "74c33721ace4cf7fba36ff48c66b7807950734b93ab84b5f898daea8964eb311",
+    "evaluation/validation_targets.csv": "9e0091cdf387d90fd048db495fd67cc5802c6966216236a771a84ac9e2bcdca3",
+    "path_stats.csv": "9a3bb80fecd8dee460153621ddd70446b269c76220b6dea73aec3f5cd7fe2ac8",
+    "paths.csv": "608edb6ecbbca4ce6ebbdfd34545df7dc2fb1349e00c5d710afc347119f16175",
+    "reports/split_3d.html": "8994cad6fb342b0ac9c3009fba178165c3eac46160485b4e126857d6d3f8dc67",
+    "reports/split_3d.png": "30e8f3579ad18b8012be82f96b95dd87cabe2b35b3d6c7b43424d58c07485009",
+    "reports/split_summary.pdf": "1eb5fe7bacbc888d8f125b479bc9b4ec6c3c6ad4f8c021f2a6e5a18d831f5ab4",
+    "split_ids.csv": "2e09a9985f002b62de6f72e2ccae788c28280d66cb82f35d01b5eb51c29755f3",
+    "test.csv": "24fbc56d960199d661fdf681f5b57f0e145020d4da394fad7549b5926a126b7b",
+    "train.csv": "3c54792044016f9e129b8adbaef9dad78fc59b7dc430e881c76629efe7e2dd37",
+    "validation.csv": "dcb4731b63a3607edc54e37e42624039f7b668624252f7848e533d0f3f9d2756"
+  },
+  "format": "rf_splits_v2",
+  "n_test": 30860,
+  "n_train": 400,
+  "n_unused": 0,
+  "n_validation": 0,
+  "nested_training": false,
+  "path_constraints": {
+    "path_altitude_change": 20.0,
+    "path_boundary_bias": 1.5,
+    "path_candidates": 128,
+    "path_count": 1,
+    "path_curve_bias": 1.0,
+    "path_max_climb": 85.0,
+    "path_max_step": 20.0,
+    "path_max_turn": 45.0,
+    "path_min_step": 0.5,
+    "path_restarts": 40,
+    "path_search_steps": 20000,
+    "path_speed": 4.0,
+    "path_train_points": [
+      300,
+      400,
+      500,
+      600
+    ]
+  },
+  "protocol": "path",
+  "requested_train_points": 400,
+  "seed": 10,
+  "signals": [
+    "RSRP_dBm",
+    "RSSI_dBm",
+    "RSRQ_dB",
+    "SINR_dB"
+  ],
+  "test_labels_public": true,
+  "test_policy": "remaining"
+}

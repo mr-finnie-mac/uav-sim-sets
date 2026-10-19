@@ -1,0 +1,2 @@
+path_id,n_points,altitude_span_m,net_altitude_change_m,total_altitude_travel_m,length_m,duration_s,min_step_m,max_step_m,max_climb_deg,max_turn_deg
+0,500,20,0,40,7335.5481412063227,1833.8870353015807,0.99999999999999445,19.994945352372216,38.049236142494586,44.818811113584403
