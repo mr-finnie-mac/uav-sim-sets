@@ -1,0 +1,97 @@
+{
+  "dataset_sha256": "e0591a394eddfca16a7458059fc4e6b977c9b865751d7d69f23d8a3052621e1e",
+  "scenario": null,
+  "scenario_metadata": {
+    "antenna_azimuth_deg": "0.0",
+    "antenna_dir_az_bw_deg": "65.0",
+    "antenna_dir_el_bw_deg": "30.0",
+    "antenna_elevation_deg": "0.0",
+    "antenna_mode": "dir",
+    "bs_alt_m": "3.0",
+    "bs_lat": "52.6304782",
+    "bs_lon": "1.1710553",
+    "frequency_MHz": "2600.0",
+    "interference_seed": "4366679952131612794",
+    "load_seed": "7035953706581263112",
+    "metric_model": "linear_loading_v1",
+    "ref_lat": "52.6304782",
+    "ref_lon": "1.1710553",
+    "simulator_version": "2.1",
+    "spatial_seed": "12973004926923274546",
+    "temporal_seed": "12315437430471410268",
+    "tx_power_dBm": "2.0"
+  },
+  "skipped_files": [],
+  "sources": [
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt05m_20260310T141402Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "ce3554ec7025fbcbef835952d969aa497ad937a0c06d5e0bb862469b3eed2e70"
+    },
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt15m_20260310T141430Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "efdf0463a6f4322cce1cfbead15ca5241dd523b4c5e628d7bdf625768e7fa539"
+    },
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt25m_20260310T141438Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "805ff8c85dec3ba9c94da64b9d444e0659ac56c74331dbfa3af693c3116cfcbb"
+    },
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt35m_20260310T141450Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "fbde1c8990279f3e795ddcb3158a2aa33b97e922fd1df80ac6dd56ffafaea4c1"
+    },
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt45m_20260310T141500Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "6b028304d543504286a405798c78d82e10e96886dc25a9798b91a3361be1b665"
+    },
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt55m_20260310T141538Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "e5ab9ae9ff2910945c103927820faa143ea3a66fe08f8eb9df738d81c4ae67cc"
+    },
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt65m_20260310T142419Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "312ddccc83958de361fd5dfbc02d690fa836302ddc93e0e27c66e2e762b3e8ef"
+    },
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt75m_20260310T142430Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "8ba59dfeb31795ecbe45fae48f003bc82bd0602a1b720ec18e46c733da04e9e3"
+    },
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt85m_20260310T142439Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "46002e7597679bf9349bfb67a309756731a19572c64d7c7a8ad7b05a2b68c628"
+    },
+    {
+      "dropped_rows": 0,
+      "file": "SPIRAL_6orbit_spc15m_alt95m_20260310T142457Z_radio_log.csv",
+      "retained_rows": 3126,
+      "rows": 3126,
+      "sha256": "f3ef0f661dd0ab7dc9a9c37c54fdb678b32c85a14cc12eb47b4054818eba2cdb"
+    }
+  ]
+}
