@@ -1,0 +1,2 @@
+- This multipath subset was automated to produce a subset of paths based on the flights. These paths are more comparable to the minimum distance and readings flights seen in practise.
+- It has 10 paths of length 300, 400, 500, 600 points total. The maximum flight time is estimated at about 25 mins conservatively.
